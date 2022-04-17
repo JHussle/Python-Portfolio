@@ -1,0 +1,3 @@
+def function():
+    function()
+function()
