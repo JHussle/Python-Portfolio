@@ -10,6 +10,6 @@ def main():
     kilometers = eval(input("Please enter the kilometers to be converted: "))
     
     miles = kilometers / 0.6214
-    print("Kilometers to miles is: ", miles)
+    print("Kilometers to M`iles is: ", miles)
     
 main()
