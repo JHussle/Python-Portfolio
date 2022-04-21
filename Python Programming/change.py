@@ -9,10 +9,10 @@ def main():
     print()
     print("Please enter the count of each coin type.")
     
-    quarters = eval(input("Quarters: "))
-    dimes = eval(input("Dimes: "))
-    nickels = eval(input("Nickels: "))
-    pennies = eval(input("Pennies: "))
+    quarters = int(input("Quarters: "))
+    dimes = int(input("Dimes: "))
+    nickels = int(input("Nickels: "))
+    pennies = int(input("Pennies: "))
     
     total = quarters * .25 + dimes * .10 + nickels * .05 + pennies * .01
     print()
