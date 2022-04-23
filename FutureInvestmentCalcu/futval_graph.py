@@ -62,7 +62,7 @@ def main():
     
     # Draw bar for initial principal
     height = principal * 0.02
-    bar = Rectangle(Point(40, 230), Point(65, 230 - height))
+    bar = Rectangle(Point(40, 230), Point(65, 230 - clheight))
     bar.setFill("green")
     bar.setWidth(2)
     bar.draw(win)
