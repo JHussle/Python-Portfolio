@@ -14,5 +14,6 @@ def main():
         codeNum = int(numStr) # convert digits to a number
         message = message + chr(codeNum) # concatenate characters to message
         
-        print("\nThe decoded message is:", message)
+    print("\nThe decoded message is:", message)
+    
 main()
