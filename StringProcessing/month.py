@@ -15,6 +15,6 @@ def main():
     monAbbrev = months[pos:pos+3]
     
     # print the results
-    print("The month abbreviation is", monAbbrev + " .")
+    print("The month abbreviation is", monAbbrev + ".")
     
 main()
