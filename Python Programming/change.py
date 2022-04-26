@@ -16,6 +16,6 @@ def main():
     
     total = quarters * .25 + dimes * .10 + nickels * .05 + pennies * .01
     print()
-    print("The total value of your change is", total)
+    print("The total value of your change is ${0:0.2f}".format(total))
 
 main()
