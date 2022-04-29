@@ -16,8 +16,11 @@ def main():
         
         print("The temperature is", fahrenheit, " degrees Fahrenheit.")
 
-    #fahrenheit = eval(input("What is the Fahrenheit temperature? "))
-    #celsius = (5/9 * fahrenheit) - 32
-    #print("The temperature is", celsius, " degrees Celsius.")
+        if fahrenheit > 90:
+            print("Heat warning is in effect")
+            
+        if fahrenheit > 30:
+            print("Cold warning is in effect")
+
 
 main()

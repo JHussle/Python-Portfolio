@@ -16,9 +16,13 @@ def main():
     discrim = b * b - 4 * a * c
     if discrim < 0:
         print("\nThe equation has no real root!")
-        
+    
+    elif discrim == 0:
+        root = -b / (2 * a)
+        print("\nThere is a double root at", root)
+
     else: 
-        discRoot = math.sqrt(b * b - 4 * a * c)
+        discRoot = math.sqrt(discrim)
         root1 = (-b + discRoot) / (2 * a)
         root2 = (-b - discRoot) / (2 * a)
         
