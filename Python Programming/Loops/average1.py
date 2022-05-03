@@ -1,4 +1,4 @@
-# average.py
+# average1.py
 
 def main():
     n = int(input('How many numbers do you have? '))
