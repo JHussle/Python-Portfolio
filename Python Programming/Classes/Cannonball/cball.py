@@ -1,6 +1,6 @@
 # cannonball.py
 
-from main import sin, cos, radians
+from math import sin, cos, radians
 
 
 def main():
